@@ -64,6 +64,28 @@
         font-size: 1.3em;
         /* color: lightblue; */
     }
+
+
+
+    .main-list{
+        
+    }
+    .main-item{
+        vertical-align: top;
+        display: inline-block;
+        
+    }
+    .main-item:nth-child(2n + 1){
+        /* text-align: right; */
+        background-color: white;
+     
+        
+        animation: none;
+     }
+     
+     .main-item:nth-child(2n){
+         animation: none;
+     }
 }
 
 @media (width > 40rem){

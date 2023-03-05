@@ -2,8 +2,8 @@ const fill = {
     "name": "Neider Gainza Llacer",
     "ocupation": {"es":"Desarrollador de Software", "en":"Jr Sofware Developend"},
     "about_me": {"es":"SOBRE MI", "en":"ABOUT ME"},
-    "description": {"es":" no aplica ", "en":" not able "},
-    "contacts": {"es":"CONTACTOS", "en":"CONTACTS"},
+    "description": {"es":" no aplica ", "en":" not able texto de prueba, me llamo neider gainza llacer y quiero que me pagues muuuucho pero es complicado porque en realidad no se muchas cosas pero igual vas a pagarme no o si o no "},
+    // "contacts": {"es":"CONTACTOS", "en":"CONTACTS"},
     "phone_number": "+5355306873",
     "email": "neidergainza1@gmail.com",
     "location": {"es":"Guantánamo, Cuba", "en":"Guantanamo, Cuba"},
@@ -107,9 +107,29 @@ const fill_document = ( language )=>{
         choice(fill[key], key, language);
     })
 }
+fill_document("es");
 
 
-fill_document("en");
+
+
+
+const canvas = document.querySelector(".canva");
+const imagen = document.querySelector(".canva_img");
+const imagen_perfil = document.querySelector(".header-img img");
+const accion = ()=>{
+    canvas.classList.toggle("hide");
+    imagen.classList.toggle("hide");
+}
+
+imagen.addEventListener("click",accion)
+imagen_perfil.addEventListener("click", accion)
+canvas.addEventListener("click", accion)
+
+
+
+
+
+
 
 
 

@@ -7,11 +7,14 @@
     <title></title>
 
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
 </head>
 <body>
+    <div class="canva hide"></div>
+    <img  class="canva_img hide" src="sources/imgs/perfil.jpg" alt="">
     <header class="header">
         <section class="header-img">
-            <img src="sources/imgs/perfil.jpg" alt="picture here">
+            <img src="sources/imgs/perfil.jpg" alt="here picture"  >
         </section>
         <section class="header-name">
             <h1 id="name"></h1>
@@ -22,43 +25,43 @@
             <span id="description"></span>
         </section>
     </header>
-    
+
     <main class="main">
-        <ul class="main_list">
-            <li class="main_item" id="achievements" ></li>
-            <li class="main_item" id="experience"   ></li>
-            <li class="main_item" id="others"       ></li>
-        </ul>
+        <ul class="main-list">
+            <li class="main-item" id="achievements">
 
-        <footer class="main_footer">
-
-        </footer>
-    </main>
-    
-    <aside class="aside">
-        <ul class="aside_list">
-            <li class="aside_item"               >
-                <h2 id="contacts"></h2>
-                <ul class="contacts_list">
-                    <li>
-                        <img src="" alt=".">
-                        <span id="phone_number"></span>
-                    </li>
-                    <li>
-                        <img src="" alt=".">
-                        <span id="email"></span>
-                    </li>
-                    <li>
-                        <img src="" alt=".">
-                        <span id="location"></span>
-                    </li>
-                </ul>
             </li>
-            <li class="aside_item" id="skills"   ></li>
-            <li class="aside_item" id="education" ></li>
-        </ul>
-    </aside>
+            <li class="main-item" id="skills">
 
+            </li>
+            <li class="main-item" id="education">
+
+            </li>
+            <li class="main-item" id="experience">
+
+            </li>
+            <li class="main-item" id="others">
+
+            </li>
+        </ul>
+    </main>
+
+    <footer class="footer">
+        <ul class="footer-list">
+            <li class="footer-item"> 
+                <img src="" alt=".">
+                <span id="phone_number"></span>
+            </li>
+            <li class="footer-item"> 
+                <img src="" alt=".">
+                <span id="email"></span>
+            </li>
+            <li class="footer-item"> 
+                <img src="" alt=".">
+                <span id="location"></span>
+            </li>
+        </ul>
+    </footer>
 
     <script src="js/fill.js"></script>
 </body>

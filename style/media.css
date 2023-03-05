@@ -1,8 +1,87 @@
-@media (width > 35rem){
+@media (width > 20rem){
     body{
-        font-size: 1.3rem;
+        font-size: 0.8rem;
+        /* background-color: rgb(47, 194, 220); */
     }
+}
+
+@media (width > 25rem){
+    body{
+        font-size: 0.9rem;
+        /* background-color: red; */
+    }
+
     .header-infor{
         top: -35%;
     }
+    .footer-item span{
+        /* display: block; */
+    }
+}
+
+
+@media (width > 35rem){
+    body{
+        /* font-size: 1.2rem; */
+        /* background-color: blue; */
+    }
+    .header-name{
+        background-color: gray;
+        margin: 0;
+        padding: 2em 1em;
+        margin-top: 0.5em;
+    }
+
+    .header-infor{
+        top: 0%;
+    }
+    .header{
+        margin: 0.5em auto;
+        width: 95%;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        grid-template-areas: "header-img header-name"
+                             "header-img header-infor";
+    }
+    .header-img{
+        border-radius: 0;
+        height: 100%;
+
+        max-width: 180px;
+    }
+
+
+
+    .footer-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer-item span{
+        display: block;
+    }
+    .footer-item i{
+        font-size: 1.3em;
+        /* color: lightblue; */
+    }
+}
+
+@media (width > 40rem){
+    body{
+        /* font-size: 1.2rem; */
+        /* background-color: blue; */
+    }
+
+    .header{
+        width: 90%;
+    }
+}
+
+@media (width > 45rem){
+
+    .header{
+        width: 80%;
+        margin: 1em auto;
+    }
+    
 }

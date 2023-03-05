@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.0rem;
+    font-size: 0.8rem;
 }
 
 
@@ -20,6 +20,7 @@ body{
                          "header-infor header-infor";
 
     margin: 0.5em;
+
 }
 
 .header-img{
@@ -45,12 +46,26 @@ body{
     margin-left: 1em;
 
 }
+#name{
+    font-size: 2em;
+}
+#ocupation{
+    font-size: 1.2em;
+}
+
 .header-infor{
     grid-area: header-infor;
     position: relative;
     top: -30%;
 
     text-align: center;
+}
+
+#about_me{
+    font-size: 1.3em;
+}
+#description{
+    font-size: 1.2em;
 }
 
 /************************ HEADER END ************************************/
@@ -62,10 +77,18 @@ body{
 .main-list{
     list-style-type: none;
 }
+
 .main-item{
     padding: 1em 2em;
     
 }
+.titulo{
+    font-size: 1.5em;
+}
+.elemento{
+    font-size: 1em;
+}
+
 @keyframes to_left {
     0%{
         right: -90%;
@@ -88,7 +111,7 @@ body{
 }
 
 .main-item:nth-child(2n + 1){
-   text-align: right;
+   /* text-align: right; */
    background-color: lightblue;
 
    position: relative;
@@ -106,16 +129,29 @@ body{
 /*******************************  FOOTER ********************************/
 
 .footer{
-    /* background-color: darkblue; */
+    background-color: lightblue;
 }
 
 .footer-list{
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    padding: 1em;
 
 }
+
+.footer-item{
+    padding: 0.5em;
+    width: 100%;
+    display: block;
+
+
+    text-align: center;
+}
+
+.footer-item span{
+    font-size: 1.1em;
+}
+
+
 
 
 /***************************** END FOOTER *******************************/

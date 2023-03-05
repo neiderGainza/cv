@@ -45,6 +45,13 @@ const fill = {
         {"es":"Trabajo en equipo", "en": "Team Work"},
         {"es":"Rápido aprendizaje", "en":"Fast Learning"},
     ],
+    "objetives":[
+        {"es":"OTRAS", "en":"OTHERS"},
+        {"es":"Español (nativo)", "en":"Espanish (native)"},
+        {"es":"Inglés (C1)", "en":"English (C1)"},
+        {"es":"Trabajo en equipo", "en": "Team Work"},
+        {"es":"Rápido aprendizaje", "en":"Fast Learning"},
+    ],
 };
 
 
@@ -62,6 +69,7 @@ const keys = [
     "achievements",
     "experience",
     "others",
+    "objetives",
 ];
  
 
@@ -72,6 +80,7 @@ const choice = (obj, key, language)=>{
         }else{
             if( obj instanceof Array ){
                 let titulo         = document.createElement("h2");
+                titulo.classList.add("titulo")
                 titulo.id          = key + "_titulo";
                 
                 let lista = document.createElement("ul");
@@ -85,6 +94,7 @@ const choice = (obj, key, language)=>{
                 for(let i = 1; i< obj.length; i++){
                     let elemento = document.createElement("li");
                     elemento.id  = key + i;
+                    elemento.classList.add("elemento")
 
                     lista.appendChild(elemento);
                     choice(obj[i],key+ i, language);
@@ -107,7 +117,7 @@ const fill_document = ( language )=>{
         choice(fill[key], key, language);
     })
 }
-fill_document("es");
+fill_document("en");
 
 
 

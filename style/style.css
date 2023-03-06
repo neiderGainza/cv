@@ -156,6 +156,7 @@ body{
 
 /***************************** END FOOTER *******************************/
 .canva{
+    display: block;
 
     width: 100vw;
     height: 100vh;
@@ -169,6 +170,8 @@ body{
 }
 
 .canva_img{
+    display: block;
+
     width: 250px;
     height: 350px;
 
@@ -176,6 +179,7 @@ body{
     transform: translateX( calc(50vw - 125px) ) translateY( calc(50vh - 175px) );    
     
     z-index: 101;
+
 }
 
 .hide{

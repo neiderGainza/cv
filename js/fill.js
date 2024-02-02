@@ -19,7 +19,7 @@ const fill = {
     "skills":[
         {"es":"HABILIDADES:", "en":"SKILLS:"},
         "C, C++.",
-        "Python, Django.",
+        "Python, Django, Odoo.",
         "Git, Github.",
         {"es":"SQL(nivel básico).", "en":"SQL(basic level)."},
         {"es":"HTML,CSS,JS(nivel básico).", "en":"HTML,CSS,JS(basic level)."},

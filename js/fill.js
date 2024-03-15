@@ -35,7 +35,7 @@ const fill = {
     ],
     "experience":[
         {"es":"EXPERIENCIA:", "en": "EXPERIENCE:"},
-        {"en":"Odoo freenlace developer for 6 months"},
+        {"es":"","en":"Odoo freenlace developer for 6 months"},
         // {"es":"Proyectos como trabajador independiente disponibles en mi cuenta de GitHub", "en":"Projects as a freelacer abailable on my GitHub account"},
         {"es":"Experiencia como programador competitivo (C++ y Python)", "en":"Expirience as a competitive programmer (C++ and Python)"},
     ],
